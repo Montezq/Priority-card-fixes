@@ -1,12 +1,10 @@
 # Priority card fixes
 
-## Overview
+Below I will attach URLs with lines from GitHub with the code that should be replaced
 
-Below I will attach URL's with lines from GitHub with the code that should be replaced
+### Fixes for the function ``baseFilteredItems``
 
-### Fixes fro the function ``baseFilteredItems``
-
-On the ``Cards`` component from the line ``237`` to line ``266`` replacae the [current function](https://github.com/Spunkie/monday.com-cro-solution/blob/e70c9e7ac5d73bfcf6748646a2aa3becca038de1/packages/components/src/cards/Cards.vue#L237-L266) with the new one:
+On the ``Cards`` component from the line ``237`` to line ``266`` replace the [current function](https://github.com/Spunkie/monday.com-cro-solution/blob/e70c9e7ac5d73bfcf6748646a2aa3becca038de1/packages/components/src/cards/Cards.vue#L237-L266) with the new one:
 
 	baseFilteredItems({ items, boardSettings: { buttonsshowAll, sortScore } }) {
 		if (items.length === 0 || this.$_isEmptyObject(this.boardSettings)) {
